@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>GOILevelImporter</AssemblyName>
+    <RootNamespace>GOILevelImporter</RootNamespace>
+    <Product>A mod for Getting Over It with Bennett Foddy to allow importing custom levels!</Product>
+    <IsGOIPluginProject>true</IsGOIPluginProject>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <!-- PluginInfo.cs declares the assembly attributes itself, so the SDK must not add its own. -->
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <RestoreAdditionalProjectSources>
+      https://api.nuget.org/v3/index.json;
+      https://nuget.bepinex.dev/v3/index.json;
+      https://nuget.samboy.dev/v3/index.json
+    </RestoreAdditionalProjectSources>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BepInEx.Analyzers" Version="1.*" PrivateAssets="all" />
+    <PackageReference Include="BepInEx.Core" Version="5.*" />
+    <PackageReference Include="UnityEngine.Modules" Version="2020.3.25" IncludeAssets="compile" />
+  </ItemGroup>
+
+  <!-- I2.Loc, TextMeshPro and UnityEngine.UI ship with the game, not with UnityEngine.Modules. -->
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(GameManagedDirectory)Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>$(GameManagedDirectory)Assembly-CSharp-firstpass.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>$(GameManagedDirectory)Unity.Postprocessing.Runtime.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>$(GameManagedDirectory)Unity.TextMeshPro.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>$(GameManagedDirectory)UnityEngine.UI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <Target Name="CheckGameReferences"
+          BeforeTargets="ResolveAssemblyReferences"
+          Condition="'$(GameManagedDirectory)' == '' or !Exists('$(GameManagedDirectory)')">
+    <Error Text="The game folder was not found, so Assembly-CSharp and the other game DLLs cannot be referenced. Install Getting Over It, or set GameDirectory in Directory.GOI.props next to Directory.Build.props." />
+  </Target>
+
+  <!-- The level select UI is built in code, so the only assets the plugin carries are these
+       six PNGs. They ride along in the DLL and are decoded by UiAssets at menu load. -->
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\*.png" LogicalName="GOILevelImporter.Assets.%(Filename)%(Extension)" />
+  </ItemGroup>
+
+</Project>

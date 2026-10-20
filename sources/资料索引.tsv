@@ -1,0 +1,61 @@
+id	priority	title	url	local_path	evidence	notes	checked_date
+foddy-reddit	P0	Bennett Foddy. Hammer mechanic explanation and FixedUpdate code. Reddit 原作者回复，2026-07 — 原帖	https://www.reddit.com/r/howdidtheycodeit/comments/1ury1w0/how_did_bennett_foddy_achieve_the_hammer_mechanic/		在线来源	原作者机制与代码片段；具体版本和参数须实测	2026-10-20
+foddy-steam	P0	Bennett Foddy. Unity physics question, please help Bennett. 开发者答复，2019-01-13 — Steam	https://steamcommunity.com/app/240720/discussions/0/1741104717701034568/		在线来源	见主报告对应引用；未运行游戏复测	2026-10-20
+go-explore-1	P0	Ecoffet et al. First return, then explore. Nature 2021 — 论文元数据与摘要	https://pubmed.ncbi.nlm.nih.gov/33627813/		在线来源	见主报告对应引用；未运行游戏复测	2026-10-20
+go-explore-2	P0	Ecoffet et al. First return, then explore. Nature 2021 — 官方代码	https://github.com/uber-research/go-explore		在线来源	见主报告对应引用；未运行游戏复测	2026-10-20
+gym-time	P0	Farama Foundation. Handling Time Limits — Gymnasium 官方文档	https://gymnasium.farama.org/tutorials/gymnasium_basics/handling_time_limits/		在线来源	见主报告对应引用；未运行游戏复测	2026-10-20
+hf	P0	miiwater. PPO agents for Getting Over It，模型卡、权重与 chain.json — 模型页	https://huggingface.co/miiwater/goi-rl	sources/hf-model-card.md	作者报告/发布文件	作者报告；归一化资产缺口见主报告	2026-10-20
+mechanics	P0	gRossi. Introduction to Getting Over It Mechanics — 教程入口	https://www.speedrun.com/goiwbf/guides/n7uh7		在线来源	见主报告对应引用；未运行游戏复测	2026-10-20
+miwate	P0	miwate. Getting Over It, played by reinforcement learning. 固定提交 `e3978643d1fb0fe4f84aacd256312ce4f72b453f`，检索 2026-10-20 — 仓库	https://github.com/miwate/getting-over-it-rl/tree/e3978643d1fb0fe4f84aacd256312ce4f72b453f	sources/code/miwate/README.md	源码快照	优先研究；没有独立复测其成绩	2026-10-20
+miwate-client	P0	miwate. goi_env/client.py，协议、动作、Windows 依赖与恢复测试 — 固定源码	https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/goi_env/client.py	sources/code/miwate/goi_env/client.py	源码快照	见主报告对应引用；未运行游戏复测	2026-10-20
+miwate-env	P0	miwate. goi_env/env.py，观测、奖励、历史与终止 — 固定源码	https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/goi_env/env.py	sources/code/miwate/goi_env/env.py	源码快照	见主报告对应引用；未运行游戏复测	2026-10-20
+miwate-explore	P0	miwate. scripts/explore.py，Go-Explore 风格搜索与 cuts — 固定源码	https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/scripts/explore.py	sources/code/miwate/scripts/explore.py	源码快照	见主报告对应引用；未运行游戏复测	2026-10-20
+miwate-game	P0	miwate. plugin/Game.cs，步进、进度、状态和物理恢复 — 固定源码	https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/plugin/Game.cs	sources/code/miwate/plugin/Game.cs	源码快照	见主报告对应引用；未运行游戏复测	2026-10-20
+miwate-marathon	P0	miwate. scripts/marathon.py，连续评估与区域模式 — 固定源码	https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/scripts/marathon.py	sources/code/miwate/scripts/marathon.py	源码快照	见主报告对应引用；未运行游戏复测	2026-10-20
+miwate-plan	P0	miwate. scripts/plan.py，鲁棒分支规划与数据聚合 — 固定源码	https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/scripts/plan.py	sources/code/miwate/scripts/plan.py	源码快照	见主报告对应引用；未运行游戏复测	2026-10-20
+miwate-plugin	P0	miwate. plugin/Plugin.cs，输入替换与事件 patch — 固定源码	https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/plugin/Plugin.cs	sources/code/miwate/plugin/Plugin.cs	源码快照	见主报告对应引用；未运行游戏复测	2026-10-20
+miwate-route	P0	miwate. goi_env/route.py，真实轨迹局部进度 — 固定源码	https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/goi_env/route.py	sources/code/miwate/goi_env/route.py	源码快照	见主报告对应引用；未运行游戏复测	2026-10-20
+miwate-train	P0	miwate. scripts/train.py，课程、策略链和归一化加载 — 固定源码	https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/scripts/train.py	sources/code/miwate/scripts/train.py	源码快照	见主报告对应引用；未运行游戏复测	2026-10-20
+reverse	P0	Florensa et al. Reverse Curriculum Generation for Reinforcement Learning. CoRL 2017 — 论文	https://arxiv.org/abs/1707.05300		在线来源	见主报告对应引用；未运行游戏复测	2026-10-20
+rfcl-1	P0	Tao et al. Reverse Forward Curriculum Learning for Extreme Sample and Demonstration Efficiency in Reinforcement Learning. ICLR 2024 — 论文	https://arxiv.org/abs/2405.03379		在线来源	见主报告对应引用；未运行游戏复测	2026-10-20
+rfcl-2	P0	Tao et al. Reverse Forward Curriculum Learning for Extreme Sample and Demonstration Efficiency in Reinforcement Learning. ICLR 2024 — 项目	https://reverseforward-cl.github.io/		在线来源	见主报告对应引用；未运行游戏复测	2026-10-20
+rfcl-3	P0	Tao et al. Reverse Forward Curriculum Learning for Extreme Sample and Demonstration Efficiency in Reinforcement Learning. ICLR 2024 — 代码	https://github.com/StoneT2000/rfcl		在线来源	见主报告对应引用；未运行游戏复测	2026-10-20
+rlpd-1	P0	Ball, Smith, Kostrikov, Levine. Efficient Online Reinforcement Learning with Offline Data. ICML 2023 — 论文	https://arxiv.org/abs/2302.02948		在线来源	见主报告对应引用；未运行游戏复测	2026-10-20
+rlpd-2	P0	Ball, Smith, Kostrikov, Levine. Efficient Online Reinforcement Learning with Offline Data. ICML 2023 — 官方代码	https://github.com/ikostrikov/rlpd		在线来源	见主报告对应引用；未运行游戏复测	2026-10-20
+ten-min	P0	Blastbolt. How to Beat Getting Over It in Under 10 Minutes — 教程入口	https://www.speedrun.com/goiwbf/guides/73a7p		在线来源	见主报告对应引用；未运行游戏复测	2026-10-20
+unity-sim	P0	Unity. Physics2D.Simulate，2020.1 API 文档 — 官方文档	https://docs.unity.cn/2020.1/Documentation/ScriptReference/Physics2D.Simulate.html		在线来源	见主报告对应引用；未运行游戏复测	2026-10-20
+aiget	P1	shush-collab. AIget — 仓库	https://github.com/shush-collab/AI-plays-getting-over-it		在线来源	见主报告对应引用；未运行游戏复测	2026-10-20
+dagger	P1	Ross, Gordon, Bagnell. A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning. AISTATS 2011 — 论文	https://proceedings.mlr.press/v15/ross11a.html		在线来源	见主报告对应引用；未运行游戏复测	2026-10-20
+guides	P1	Speedrun.com. Getting Over It guides — 分段与完整教程	https://www.speedrun.com/goiwbf/guides		在线来源	见主报告对应引用；未运行游戏复测	2026-10-20
+heuriz	P1	Heuriz. goi-rl. 固定提交 `a2f00cefabfbf6e64fc02789f00583a548219f0a` — 仓库	https://gitee.com/Heuriz/goi-rl/tree/a2f00cefabfbf6e64fc02789f00583a548219f0a	sources/code/heuriz/main_train.py	源码快照	见主报告对应引用；未运行游戏复测	2026-10-20
+importer	P1	Jor02. GOILevelImporter. 固定提交 `6f579d35a287073e3e5a69d8912a39ed556cf85e` — 仓库	https://github.com/Jor02/GOILevelImporter/tree/6f579d35a287073e3e5a69d8912a39ed556cf85e	sources/code/level-importer/README.md	源码快照	见主报告对应引用；未运行游戏复测	2026-10-20
+linesight-1	P1	Linesight-RL. Linesight — 代码	https://github.com/Linesight-RL/linesight		在线来源	跨游戏速通参考，不是 GOI 成绩	2026-10-20
+linesight-2	P1	Linesight-RL. Linesight — 项目结构文档	https://linesight-rl.github.io/linesight/build/html/project_structure.html		在线来源	跨游戏速通参考，不是 GOI 成绩	2026-10-20
+ppo	P1	Schulman et al. Proximal Policy Optimization Algorithms — 论文	https://arxiv.org/abs/1707.06347		在线来源	见主报告对应引用；未运行游戏复测	2026-10-20
+resources	P1	Speedrun.com. Getting Over It resources — Modpack、TAS 和计时工具	https://www.speedrun.com/goiwbf/resources		在线来源	见主报告对应引用；未运行游戏复测	2026-10-20
+rules	P1	Speedrun.com. Updates to game rules. 历史规则讨论，不能替代提交时完整规则 — 页面	https://www.speedrun.com/it-IT/goiwbf/forums/wudze		在线来源	历史规则，不能当作提交时完整规则	2026-10-20
+rules-news	P1	Speedrun.com. Getting Over It news，含规则更新 — 页面	https://www.speedrun.com/goiwbf/news		在线来源	规则更新入口；提交时重新核实	2026-10-20
+sac	P1	Haarnoja et al. Soft Actor-Critic Algorithms and Applications — 论文	https://arxiv.org/abs/1812.05905		在线来源	见主报告对应引用；未运行游戏复测	2026-10-20
+shaping	P1	Ng, Harada, Russell. Policy invariance under reward transformations: Theory and application to reward shaping. ICML 1999 — 作者机构 PDF	https://people.eecs.berkeley.edu/~russell/papers/icml99-shaping.pdf		在线来源	理论条件和终止处理必须同时成立	2026-10-20
+tas	P1	GiantBooley. GOI Modpack Level Importer TAS，已归档 — 仓库	https://github.com/GiantBooley/GOI-Modpack-Level-Importer-TAS		在线来源	见主报告对应引用；未运行游戏复测	2026-10-20
+tmrl	P1	Trackmania-RL. TMRL — 代码与说明	https://github.com/trackmania-rl/tmrl		在线来源	跨游戏实时控制参考，不是 GOI 成绩	2026-10-20
+vision	P1	Residualcanliu. goi-vision-rl. 固定提交 `6feb95e4e1792551fb04683efd6e4dce9299c78b` — 仓库	https://github.com/Residualcanliu/goi-vision-rl/tree/6feb95e4e1792551fb04683efd6e4dce9299c78b	sources/code/vision/README.md	源码快照	见主报告对应引用；未运行游戏复测	2026-10-20
+aaditya	P2	AadityaH24. Reinforcement Learning on a Climbing Game in Unity — 仓库	https://github.com/AadityaH24/Reinforment-Learning-on-Climbing-Game		在线来源	见主报告对应引用；未运行游戏复测	2026-10-20
+animate	P2	animatemesh. GettingOvertItAIv1 — 仓库	https://github.com/animatemesh/GettingOvertItAIv1		在线来源	见主报告对应引用；未运行游戏复测	2026-10-20
+bili	P2	茹莺. Bilibili 主页；关联来自视觉版仓库，未完整核实视频清单 — 主页	https://space.bilibili.com/442902038		在线来源	主页关联来自仓库引用；未完整核实视频列表	2026-10-20
+clone	P2	rossning92. getting-0ver-it — 仓库	https://github.com/rossning92/getting-0ver-it		在线来源	见主报告对应引用；未运行游戏复测	2026-10-20
+dreamer-1	P2	Hafner et al. Mastering diverse control tasks through world models. Nature 2025 — 论文	https://www.nature.com/articles/s41586-025-08744-2		在线来源	见主报告对应引用；未运行游戏复测	2026-10-20
+dreamer-2	P2	Hafner et al. Mastering diverse control tasks through world models. Nature 2025 — 代码	https://github.com/danijar/dreamerv3		在线来源	见主报告对应引用；未运行游戏复测	2026-10-20
+drq-1	P2	Yarats et al. Mastering Visual Continuous Control: Improved Data-Augmented Reinforcement Learning — 论文	https://arxiv.org/abs/2107.09645		在线来源	见主报告对应引用；未运行游戏复测	2026-10-20
+drq-2	P2	Yarats et al. Mastering Visual Continuous Control: Improved Data-Augmented Reinforcement Learning — 官方代码	https://github.com/facebookresearch/drqv2		在线来源	见主报告对应引用；未运行游戏复测	2026-10-20
+leaderboard	P2	Speedrun.com. Getting Over It leaderboard — 动态排行榜	https://www.speedrun.com/goiwbf		在线来源	见主报告对应引用；未运行游戏复测	2026-10-20
+levelmod	P2	pfgithub. Level Maker Mod — 仓库	https://github.com/pfgithub/goilevelmod		在线来源	见主报告对应引用；未运行游戏复测	2026-10-20
+modding-api	P2	Skippeh. goi-modding-api — 仓库	https://github.com/Skippeh/goi-modding-api		在线来源	见主报告对应引用；未运行游戏复测	2026-10-20
+nuxlear	P2	nuxlear. GettingOverIt — 仓库	https://github.com/nuxlear/GettingOverIt		在线来源	见主报告对应引用；未运行游戏复测	2026-10-20
+oxide	P2	Skippeh. Oxide.GettingOverIt — 仓库	https://github.com/Skippeh/Oxide.GettingOverIt		在线来源	见主报告对应引用；未运行游戏复测	2026-10-20
+qwop-video	P2	林亦 LYi. 我用 AI 杀死了史上最难的跑步游戏. 2026-07-20，内容为 QWOP — 视频说明	https://www.bilibili.com/video/BV1bmKp6cERp/		在线来源	排除误归类：实际是 QWOP	2026-10-20
+rishav	P2	rishavbhurtel. getting-over-it — 仓库	https://github.com/rishavbhurtel/getting-over-it		在线来源	见主报告对应引用；未运行游戏复测	2026-10-20
+saving	P2	wtdcode. SavingOverIt — 仓库	https://github.com/wtdcode/SavingOverIt		在线来源	见主报告对应引用；未运行游戏复测	2026-10-20
+tdmpc-1	P2	Hansen, Su, Wang. TD-MPC2: Scalable, Robust World Models for Continuous Control. ICLR 2024 — 论文	https://arxiv.org/abs/2310.16828		在线来源	见主报告对应引用；未运行游戏复测	2026-10-20
+tdmpc-2	P2	Hansen, Su, Wang. TD-MPC2: Scalable, Robust World Models for Continuous Control. ICLR 2024 — 代码	https://github.com/nicklashansen/tdmpc2		在线来源	见主报告对应引用；未运行游戏复测	2026-10-20
+video	P2	El Maikini Dev. Artificial Intelligence: Learning to Play — Getting Over IT. 2023-06-29 — 视频	https://www.youtube.com/watch?v=9p7ieb7VmWE		在线来源	见主报告对应引用；未运行游戏复测	2026-10-20

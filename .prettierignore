@@ -1,0 +1,7 @@
+sources/
+node_modules/
+.venv/
+.tools/
+.claude/
+package-lock.json
+.agents/notes/archived/

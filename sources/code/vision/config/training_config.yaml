@@ -1,0 +1,40 @@
+# Training configuration for Getting Over It RL
+
+# Algorithm
+algorithm: PPO
+policy: CnnPolicy
+
+# Learning hyperparameters
+learning_rate: 3.0e-4
+n_steps: 2048        # Steps per PPO rollout
+batch_size: 64        # Minibatch size
+n_epochs: 10           # PPO epochs per update
+
+# RL hyperparameters
+gamma: 0.99            # Discount factor
+gae_lambda: 0.95       # GAE bias-variance trade-off
+clip_range: 0.2         # PPO clipping epsilon
+ent_coef: 0.01          # Entropy coefficient (exploration)
+vf_coef: 0.5            # Value function loss weight
+max_grad_norm: 0.5      # Gradient clipping
+
+# Training scale
+total_timesteps: 10_000_000   # ~278 hours at 10 Hz
+save_freq: 50_000             # Save checkpoint every N steps (~1.4 hours)
+
+# Environment settings (passed to GettingOverItEnv)
+env:
+  step_rate: 10.0             # Hz
+  max_episode_steps: 10000
+  frame_stack: 4
+  obs_size: [84, 84]
+  max_mouse_delta: 200.0
+  height_scale: 10.0
+  fall_threshold: 3.0
+
+# These can be tuned in Phase 5:
+#   - ent_coef: increase if agent isn't exploring
+#   - learning_rate: lower if training is unstable
+#   - clip_range: lower if policy updates too aggressively
+#   - gamma: lower if agent is too short-sighted
+#   - n_steps: larger = more stable updates but slower

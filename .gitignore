@@ -1,0 +1,14 @@
+.venv/
+node_modules/
+.claude/
+.tools/
+__pycache__/
+.ruff_cache/
+.pytest_cache/
+.crossnote/
+*.pyc
+.env
+.env.*
+!.env.example
+runs/
+checkpoints/

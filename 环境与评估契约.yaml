@@ -1,0 +1,239 @@
+# 建议规格，不是可直接传给现有仓库的配置，也不表示已有实验通过。
+schema_version: 1
+status: proposed
+updated: "2026-10-20"
+task: getting_over_it_speedrun
+
+identity:
+  game_build: null
+  game_executable_sha256: null
+  unity_version: null
+  scripting_backend: null # mono / il2cpp，必须实测
+  operating_system: null
+  plugin_commit: null
+  plugin_binary_sha256: null
+  environment_commit: null
+  observation_schema_version: null
+  action_schema_version: null
+  normalization_sha256: null
+  model_sha256: null
+
+capability_tracks:
+  privileged_bridge:
+    actor_inputs: [physics_state, geometry_rays, route_features, action_history]
+    training_restore_allowed: true
+    evaluation_restore_allowed_after_start: false
+    evaluation_branch_search_allowed: false
+    claim: "修改调度后的原版桥接环境；不能直接宣称与正常原版物理等价"
+  normal_runtime:
+    actor_inputs: null # 必须选择并固定，不默认为视觉
+    evaluation_restore_allowed_after_start: false
+    evaluation_branch_search_allowed: false
+    normal_game_clock: true
+    input_latency_recorded: true
+    claim: "按固定输入和正常时序连续评估；社区排行榜适用性另行核实"
+  planner:
+    evaluation_branch_search_allowed: true
+    log_candidate_count: true
+    log_all_search_physics_steps: true
+    log_planning_wall_seconds: true
+    claim: "有搜索预算的控制系统，与仅网络推理分开比较"
+  visual:
+    actor_inputs: [rgb_history, action_history]
+    privileged_critic_during_training: null
+    privileged_reward_during_training: null
+    prohibit_hidden_state_in_actor: true
+    claim: "必须说明训练侧特权信息；不能把相机坐标输入隐去"
+
+clock:
+  physics_dt_seconds: null # 从引擎读取，不直接复制 1/120
+  action_repeat_physics_steps: 4 # 第一轮建议；不是最优值
+  action_dt_formula: "action_repeat_physics_steps * physics_dt_seconds"
+  allow_variable_repeat: false
+  report_separately:
+    - simulation_seconds
+    - normal_game_timer_seconds
+    - rollout_wall_seconds
+    - training_wall_seconds
+    - planning_wall_seconds
+    - physics_steps
+    - agent_steps
+  discount:
+    time_constant_seconds: null
+    gamma_formula: "exp(-actual_action_dt_seconds / time_constant_seconds)"
+  prohibit_hardcoded_evaluation_hz: true
+
+interface:
+  commands:
+    - handshake
+    - reset
+    - step
+    - observe
+    - save_physical_state
+    - restore_physical_state
+    - export_physical_state
+    - import_physical_state
+    - render
+    - dump_engine
+    - close
+  handshake_fields:
+    - protocol_version
+    - game_build
+    - plugin_hash
+    - physics_dt_seconds
+    - observation_fields_and_units
+    - action_fields_and_units
+    - terminal_event_definition
+    - snapshot_schema
+  step_invariants:
+    - "每个 action_id 只能执行一次；重试不得重复推进"
+    - "返回动作实际生效后的观测、实际物理步数和 sim_time"
+    - "维护 frame_id、action_id、episode_id"
+    - "不静默接收重复旧帧，不静默跨越重置"
+    - "自动 reset 必须保留 terminal_observation"
+  action:
+    normalized_shape: [2]
+    normalized_bounds: [-1.0, 1.0]
+    native_mouse_axis_scale: null
+    sensitivity: null
+    trackpad_mode: null
+    zero_action_semantics: "不预设为保持锤子；必须测量虚拟光标漂移"
+  observation:
+    fields:
+      - body_positions_or_task_sufficient_subset
+      - body_linear_and_angular_velocities
+      - joint_angles_and_extensions
+      - virtual_cursor_and_input_filter_state
+      - contact_state
+      - dynamic_prop_state
+      - route_phase_if_allowed
+      - geometry_rays_if_allowed
+      - action_history
+      - wrapper_history_if_reward_dependent
+    units_explicit: true
+    include_remaining_time_if_intrinsic_finite_horizon: true
+    normalization_frozen_during_evaluation: true
+
+snapshot_layers:
+  physical:
+    include:
+      - body_pose_velocity_sleep_type
+      - joint_motor_and_reference_state
+      - input_filter_and_cursor
+      - contact_friction_script_state
+      - dynamic_props_and_gravity
+      - event_flags_and_teleport
+      - simulation_clock
+      - route_estimator_state
+    solver_cache_reconstruction_must_be_declared: true
+  wrapper:
+    include:
+      [action_history, stall_counter, best_progress, held_best, route_pointer]
+  policy:
+    include:
+      [recurrent_hidden_state_if_any, random_generator_state, active_skill]
+  tests:
+    repeat_restore: pending
+    uninterrupted_vs_restored: pending
+    cross_process: pending
+    cross_machine: pending
+    rendering_on_vs_off: pending
+    wrapper_and_policy_state_roundtrip: pending
+  tolerances: null # 按固定构建测量后预先登记；不随测试结果临时放宽
+
+data:
+  transition_fields:
+    - run_id
+    - env_id
+    - episode_id
+    - frame_id
+    - action_id
+    - physics_step
+    - sim_time
+    - actual_dt
+    - raw_observation
+    - requested_action
+    - executed_action
+    - next_raw_observation
+    - reward_components
+    - terminated
+    - truncated
+    - reset_reason
+    - terminal_observation
+    - held_progress
+    - peak_progress
+  demonstration_fields:
+    - source_kind
+    - generating_model_or_planner_hash
+    - start_state
+    - restore_cut_indices
+    - requires_restore_cuts
+    - continuous_replay_verified
+    - perturbation_test_success_count
+    - perturbation_test_trial_count
+    - generation_physics_steps
+    - generation_wall_seconds
+
+reward:
+  base_task: "先达到真实终点，再在固定成功率要求下缩短耗时"
+  time_cost_per_sim_second: null
+  terminal_success_reward: null
+  terminal_failure_cost: null
+  shaping:
+    method: potential_difference_candidate
+    formula: "beta * (gamma_t * Phi(next_augmented_state) - Phi(augmented_state))"
+    terminal_potential: 0
+    beta: null
+  anti_exploit_checks:
+    - stationary_pogo_cycle
+    - rise_fall_cycle
+    - spline_projection_jump
+    - airborne_peak_without_landing
+    - brief_contact_then_fall
+    - intentional_early_failure
+    - restore_or_reset_repeats_reward
+
+termination:
+  true_terminal_events: [verified_finish, verified_irrecoverable_lake_failure]
+  external_time_limit_is_truncation: true
+  intrinsic_finite_horizon_requires_time_in_state: true
+  ordinary_fall_terminal_in_full_run: false
+  snake_terminal_in_full_run: false
+  local_curriculum_end_rules_logged_separately: true
+  bootstrap_mask: "1 - terminated; 使用终止前最后真实观测"
+
+evaluation:
+  starting_distribution:
+    full_run: "固定版本的正常新游戏起点；初始化与计时协议须登记"
+    local:
+      - canonical_entry
+      - natural_arrival_from_previous_policy
+      - fixed_perturbation_set
+  holdout_states_must_not_drive_curriculum: true
+  max_sim_seconds_per_run: null
+  stochastic_policy_noise: null
+  seed_list: null
+  development_trials_per_candidate_suggested: 20
+  final_trials_per_candidate_suggested: 100
+  independent_training_seeds_suggested: [3, 5]
+  success_probability_target_suggested: 0.9
+  confidence_interval_method: "预先选择 Wilson 或精确二项区间；分训练种子报告"
+  outputs:
+    - success_count_and_trial_count
+    - success_confidence_interval
+    - censored_completion_time
+    - successful_run_time_median_quantiles_best
+    - failure_and_stall_distribution
+    - section_first_passage_times
+    - fall_and_recovery_statistics
+    - all_interaction_and_search_costs
+    - uncut_video_and_step_log
+    - restore_and_branch_search_counters
+
+research_gates:
+  A_environment: pending
+  B_restore_and_data: pending
+  C_local_baselines: pending
+  D_curriculum_and_full_runs: pending
+  E_speed_optimization: pending
+  F_reproducible_release: pending

@@ -1,0 +1,9 @@
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Public Unity PlayerPrefs registry value name, not a credential"
+condition = "AND"
+paths = ['''^sources/code/heuriz/(main_train|record_UDP_to_mat)\.py$''']
+regexTarget = "line"
+regexes = ['''winreg\.QueryValueEx\(key, "numDuplis_h1216609508"\)''']

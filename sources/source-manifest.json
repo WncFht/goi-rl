@@ -1,0 +1,1332 @@
+[
+  {
+    "id": "miwate",
+    "repository": "https://github.com/miwate/getting-over-it-rl",
+    "commit": "e3978643d1fb0fe4f84aacd256312ce4f72b453f",
+    "commit_author_date": "2026-10-17T18:42:45+00:00",
+    "retrieved_date": "2026-10-20",
+    "scope": "Selected source text; not a runnable complete checkout. No game binaries, model weights, or extracted game assets.",
+    "files": [
+      {
+        "path": "code/miwate/README.md",
+        "sha256": "dc491885bb5cf551c35155cc47267c2f7a3113e7969302cf866f55a110d5d9e0",
+        "bytes": 2978,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/README.md"
+      },
+      {
+        "path": "code/miwate/goi_env/__init__.py",
+        "sha256": "3641e759b1524e8a40c90075459e8a112f9a92b4e2a47c6350aec2ccc406b486",
+        "bytes": 73,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/goi_env/__init__.py"
+      },
+      {
+        "path": "code/miwate/goi_env/client.py",
+        "sha256": "aa25183213af500dd0394b8a2f6d9381360a060c7908063e2775ac870bae179c",
+        "bytes": 12652,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/goi_env/client.py"
+      },
+      {
+        "path": "code/miwate/goi_env/env.py",
+        "sha256": "2d362e117fd3d32d1f2fdf79c015599ae7e81679c213b228e9ae38cf2adc81d0",
+        "bytes": 15956,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/goi_env/env.py"
+      },
+      {
+        "path": "code/miwate/goi_env/route.py",
+        "sha256": "3077b9a3176c514b198f72ead278e1d3228585a8afba4c7a6a89b91f98932b97",
+        "bytes": 2926,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/goi_env/route.py"
+      },
+      {
+        "path": "code/miwate/plugin/ColliderOverlay.cs",
+        "sha256": "344cc15ed9e9c753303957153bae2f2e74d6840fae56990fc3e115ec0e5aa83d",
+        "bytes": 3056,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/plugin/ColliderOverlay.cs"
+      },
+      {
+        "path": "code/miwate/plugin/EngineDump.cs",
+        "sha256": "a1c46df833e6cdacdc42c193bcb6626b9f1113b7e95f55e59da4a75c1871cc90",
+        "bytes": 8638,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/plugin/EngineDump.cs"
+      },
+      {
+        "path": "code/miwate/plugin/Game.cs",
+        "sha256": "55f76c8034db17ee5bbcb5655626d359cff84bba35f0ecb7795f687f765ed0b4",
+        "bytes": 34897,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/plugin/Game.cs"
+      },
+      {
+        "path": "code/miwate/plugin/GoiBridge.csproj",
+        "sha256": "ca0cfd4e6d73620b24710b0c2b2e606207b9aeb5ea5b458629ef5318fa428b8f",
+        "bytes": 2033,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/plugin/GoiBridge.csproj"
+      },
+      {
+        "path": "code/miwate/plugin/Plugin.cs",
+        "sha256": "c76c3da41a229693297a29825a8ed236f34e5d83d46e371c0d065d860812c6ee",
+        "bytes": 6547,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/plugin/Plugin.cs"
+      },
+      {
+        "path": "code/miwate/plugin/Server.cs",
+        "sha256": "6ba97891f3bed59c4146f0c1ebe77f5e104a3240512fbc6effa76f62042946f6",
+        "bytes": 8571,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/plugin/Server.cs"
+      },
+      {
+        "path": "code/miwate/pyproject.toml",
+        "sha256": "f1a08d1159756663c0f1d583eb591d0475fe958670fda03e8f54f17519987162",
+        "bytes": 856,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/pyproject.toml"
+      },
+      {
+        "path": "code/miwate/scripts/arrival_test.py",
+        "sha256": "74f6d4200050664e4dad67bb7f294e2861c11223d39c49c3346e99ed1991c0f2",
+        "bytes": 6686,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/scripts/arrival_test.py"
+      },
+      {
+        "path": "code/miwate/scripts/benchmark.py",
+        "sha256": "041ffe41c2d10972bc64d2f54ffd8891441c33403704fe7f90d792529d00d0eb",
+        "bytes": 2296,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/scripts/benchmark.py"
+      },
+      {
+        "path": "code/miwate/scripts/climb.py",
+        "sha256": "3cf37e06235d7e913f44ec858c22e7cd25b76b35777eae8fb865373b84b217e3",
+        "bytes": 11931,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/scripts/climb.py"
+      },
+      {
+        "path": "code/miwate/scripts/collector.py",
+        "sha256": "50557db980f2c3398b646769d06bc59732c60201da137fe5a8e3f48f05b890df",
+        "bytes": 10868,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/scripts/collector.py"
+      },
+      {
+        "path": "code/miwate/scripts/demo_states.py",
+        "sha256": "c0ef6e2611b243f255246f1e0c5d26f7c09c9fb373b7c4a16f751b852488bf01",
+        "bytes": 3394,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/scripts/demo_states.py"
+      },
+      {
+        "path": "code/miwate/scripts/demos.py",
+        "sha256": "4033af160559f0a3134f2d84ce68d4797558d53c931599c91f571f3b2ccb5060",
+        "bytes": 4246,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/scripts/demos.py"
+      },
+      {
+        "path": "code/miwate/scripts/determinism.py",
+        "sha256": "28a66c7530a60bc780bb74b856ce5cf57b757f94ae1321e9fe32fd7ffd6c65a8",
+        "bytes": 1478,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/scripts/determinism.py"
+      },
+      {
+        "path": "code/miwate/scripts/distill.py",
+        "sha256": "57b0bdb0de192b1cde5755dc59ab75ad60b3676cbb30bdffe2da0c1538c40474",
+        "bytes": 2812,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/scripts/distill.py"
+      },
+      {
+        "path": "code/miwate/scripts/evaluate.py",
+        "sha256": "2a78aaa4bbd0066a69d69c37dac89d404a3b132caefb31042cd7b27a90707f3b",
+        "bytes": 3378,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/scripts/evaluate.py"
+      },
+      {
+        "path": "code/miwate/scripts/explore.py",
+        "sha256": "e04ceee69baddb01c95aba47b74718ca22d9271474cabd25633898f0a6a68c31",
+        "bytes": 7882,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/scripts/explore.py"
+      },
+      {
+        "path": "code/miwate/scripts/film.py",
+        "sha256": "eb927b22c35f554b87383d34d97c699db0d4d888ce1d68927cbdf9b0cc3e8d9c",
+        "bytes": 4709,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/scripts/film.py"
+      },
+      {
+        "path": "code/miwate/scripts/gate.py",
+        "sha256": "06de3cbbbf1e94e38da7f0f362b95e5c97a2537a4f4533017268771f42fa5f9c",
+        "bytes": 6472,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/scripts/gate.py"
+      },
+      {
+        "path": "code/miwate/scripts/imitate.py",
+        "sha256": "4df07e05c16635c16e924273fcf97e2ebb93a1e2bb6c3d26b473f7bb630fb6b9",
+        "bytes": 3001,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/scripts/imitate.py"
+      },
+      {
+        "path": "code/miwate/scripts/marathon.py",
+        "sha256": "2a44bbd3672586bcb454c4891c8e40d6f64037a24596109152138b858a6241b6",
+        "bytes": 8863,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/scripts/marathon.py"
+      },
+      {
+        "path": "code/miwate/scripts/path_states.py",
+        "sha256": "7f8c894caf506aeffd8b399ae2349eb848d21e9085fd4d8d2201242b1347c9c5",
+        "bytes": 2982,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/scripts/path_states.py"
+      },
+      {
+        "path": "code/miwate/scripts/plan.py",
+        "sha256": "54d009919536b88d911680323d3a742f866447456f6296505f477839a9bb557a",
+        "bytes": 8670,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/scripts/plan.py"
+      },
+      {
+        "path": "code/miwate/scripts/play_film.py",
+        "sha256": "50954b4a954dc9af2c157cb26480a0a8665d1771f2a387a44228b71af03337b9",
+        "bytes": 4838,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/scripts/play_film.py"
+      },
+      {
+        "path": "code/miwate/scripts/policy.py",
+        "sha256": "265ef60b9e952c6d15af62225c2bcc3508fdd38316de841d2cdd7e26ddd28f9b",
+        "bytes": 5787,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/scripts/policy.py"
+      },
+      {
+        "path": "code/miwate/scripts/port.py",
+        "sha256": "5353407e20e3cd6fd92214cdf1ab69510ceb230bb704002ab6a58db36a65a8b0",
+        "bytes": 3903,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/scripts/port.py"
+      },
+      {
+        "path": "code/miwate/scripts/record.py",
+        "sha256": "ef96343db3a515cb8f092767ace0787c4e86198bb98c7497e333bc77de979160",
+        "bytes": 3035,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/scripts/record.py"
+      },
+      {
+        "path": "code/miwate/scripts/replay.py",
+        "sha256": "2feaa552f2dafc02551af5df3dd51cd3396bdab89f6979c9b4d4ece46ac17262",
+        "bytes": 2956,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/scripts/replay.py"
+      },
+      {
+        "path": "code/miwate/scripts/rlpd.py",
+        "sha256": "3fe36478cbb21c877bb1d7baeb63027c6a46828b87035d06166b6fd371f7d429",
+        "bytes": 9072,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/scripts/rlpd.py"
+      },
+      {
+        "path": "code/miwate/scripts/round.py",
+        "sha256": "bb363dfebc6726baa18a05a6e2c4ec0ef15fc96a25deadc31316d30e958384f8",
+        "bytes": 8590,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/scripts/round.py"
+      },
+      {
+        "path": "code/miwate/scripts/sections.py",
+        "sha256": "0b6a403fc0ae7c78fbf644e0f7f3a819509a0d26268f8675bf002b4091d947df",
+        "bytes": 5597,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/scripts/sections.py"
+      },
+      {
+        "path": "code/miwate/scripts/seeds.py",
+        "sha256": "0df7040ff92efb6574cbd46cb5f528f8ddde0fe68e37e449945d9fcd6e5426e3",
+        "bytes": 7644,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/scripts/seeds.py"
+      },
+      {
+        "path": "code/miwate/scripts/selection.py",
+        "sha256": "506d18a260aa5b2a3cb359372c9bebd0a262287b44cf6dfb34fe3f1eb37d5cad",
+        "bytes": 5985,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/scripts/selection.py"
+      },
+      {
+        "path": "code/miwate/scripts/successes.py",
+        "sha256": "e9bd1e71e3516b8ade70b49481e8ef004e532a7b0687b3c7b83a83280ee2e234",
+        "bytes": 6099,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/scripts/successes.py"
+      },
+      {
+        "path": "code/miwate/scripts/train.py",
+        "sha256": "28ef728b58ad8aed3cb1dd461a88e5a996a4a04bf5ea175abb9aaa17fb848a1d",
+        "bytes": 41195,
+        "upstream": "https://github.com/miwate/getting-over-it-rl/blob/e3978643d1fb0fe4f84aacd256312ce4f72b453f/scripts/train.py"
+      }
+    ]
+  },
+  {
+    "id": "heuriz",
+    "repository": "https://gitee.com/Heuriz/goi-rl",
+    "commit": "a2f00cefabfbf6e64fc02789f00583a548219f0a",
+    "commit_author_date": "2025-12-03T21:47:01+08:00",
+    "retrieved_date": "2026-10-20",
+    "scope": "Selected source text; not a runnable complete checkout. No game binaries, model weights, or extracted game assets.",
+    "files": [
+      {
+        "path": "code/heuriz/assets/t1_cut_segs_and_triangles.py",
+        "sha256": "9b356fa73e06b216b81a8fa49123631e6407bf4f5a5142a77265b7ab0863a94b",
+        "bytes": 4633,
+        "upstream": "https://gitee.com/Heuriz/goi-rl/blob/a2f00cefabfbf6e64fc02789f00583a548219f0a/assets/t1_cut_segs_and_triangles.py"
+      },
+      {
+        "path": "code/heuriz/assets/t3_preprocess_pt.py",
+        "sha256": "36cf33bcf3dd71f3fb84b48fbeff5721a3297b9e8396d5abeab0ceee0682868f",
+        "bytes": 6950,
+        "upstream": "https://gitee.com/Heuriz/goi-rl/blob/a2f00cefabfbf6e64fc02789f00583a548219f0a/assets/t3_preprocess_pt.py"
+      },
+      {
+        "path": "code/heuriz/claude_sac_policy.py",
+        "sha256": "aa068a0db04fa2862573fa16941769659e2adf8a4997058bd350862faee78973",
+        "bytes": 11141,
+        "upstream": "https://gitee.com/Heuriz/goi-rl/blob/a2f00cefabfbf6e64fc02789f00583a548219f0a/claude_sac_policy.py"
+      },
+      {
+        "path": "code/heuriz/doubao_sac_policy.py",
+        "sha256": "f16e00819f7a8d8b13f6a35943cefb80039ed40fcbd2604e3716f4ba9e14446f",
+        "bytes": 19495,
+        "upstream": "https://gitee.com/Heuriz/goi-rl/blob/a2f00cefabfbf6e64fc02789f00583a548219f0a/doubao_sac_policy.py"
+      },
+      {
+        "path": "code/heuriz/grok_sac_policy.py",
+        "sha256": "dd536993258bd8b4944063afa6bdf30986968d89ff9c1fabc8063f2dcf172c39",
+        "bytes": 9079,
+        "upstream": "https://gitee.com/Heuriz/goi-rl/blob/a2f00cefabfbf6e64fc02789f00583a548219f0a/grok_sac_policy.py"
+      },
+      {
+        "path": "code/heuriz/lidar_gen_cuda/__init__.py",
+        "sha256": "44a1258a5e29e82ffe3fef0cc4db6509181c7762a9405c5e9359a40a045650bd",
+        "bytes": 35,
+        "upstream": "https://gitee.com/Heuriz/goi-rl/blob/a2f00cefabfbf6e64fc02789f00583a548219f0a/lidar_gen_cuda/__init__.py"
+      },
+      {
+        "path": "code/heuriz/lidar_gen_cuda/lidar_gen_cuda.cpp",
+        "sha256": "a6563900cd05041f770b9d9cb68114518052a349b94e89d40e3e11088570bd6b",
+        "bytes": 438,
+        "upstream": "https://gitee.com/Heuriz/goi-rl/blob/a2f00cefabfbf6e64fc02789f00583a548219f0a/lidar_gen_cuda/lidar_gen_cuda.cpp"
+      },
+      {
+        "path": "code/heuriz/lidar_gen_cuda/lidar_gen_kernel.cu",
+        "sha256": "b0110b1ab97744e814e2fe0b77ff19772c556abc38a6f0be8ca6c70a05ee31bf",
+        "bytes": 6773,
+        "upstream": "https://gitee.com/Heuriz/goi-rl/blob/a2f00cefabfbf6e64fc02789f00583a548219f0a/lidar_gen_cuda/lidar_gen_kernel.cu"
+      },
+      {
+        "path": "code/heuriz/lidar_gen_cuda/setup.py",
+        "sha256": "3ecc721c81f5590dd4eb1ab3a94f3b5a32e9aa5d3274301ab8d8a9db01489fbc",
+        "bytes": 747,
+        "upstream": "https://gitee.com/Heuriz/goi-rl/blob/a2f00cefabfbf6e64fc02789f00583a548219f0a/lidar_gen_cuda/setup.py"
+      },
+      {
+        "path": "code/heuriz/main_train.py",
+        "sha256": "b77d8c628195cf46e1216d866165c07ec566bbabda9a4bc4bfb086faf28d83c4",
+        "bytes": 5432,
+        "upstream": "https://gitee.com/Heuriz/goi-rl/blob/a2f00cefabfbf6e64fc02789f00583a548219f0a/main_train.py"
+      },
+      {
+        "path": "code/heuriz/my_data_manager.py",
+        "sha256": "c0c71ec880b4dff9e430a38c65a624f0ceb1f056adbfd297a81cbacfb13cd51c",
+        "bytes": 8497,
+        "upstream": "https://gitee.com/Heuriz/goi-rl/blob/a2f00cefabfbf6e64fc02789f00583a548219f0a/my_data_manager.py"
+      },
+      {
+        "path": "code/heuriz/my_lidar_renderer.py",
+        "sha256": "5feb172b9a6961b39fbac6c88b9f0e4b1f7cd569be635ceeb98c9999f422a695",
+        "bytes": 3364,
+        "upstream": "https://gitee.com/Heuriz/goi-rl/blob/a2f00cefabfbf6e64fc02789f00583a548219f0a/my_lidar_renderer.py"
+      },
+      {
+        "path": "code/heuriz/my_logger.py",
+        "sha256": "fd0ea999396a9098a601fe42d0eebf07a1896cbe481dd90e597189471774f915",
+        "bytes": 812,
+        "upstream": "https://gitee.com/Heuriz/goi-rl/blob/a2f00cefabfbf6e64fc02789f00583a548219f0a/my_logger.py"
+      },
+      {
+        "path": "code/heuriz/my_pic_renderer.py",
+        "sha256": "712288bf0e9674f64846e6c00d6c50a21d4c741e344fcfa38e07cd51e507227d",
+        "bytes": 5,
+        "upstream": "https://gitee.com/Heuriz/goi-rl/blob/a2f00cefabfbf6e64fc02789f00583a548219f0a/my_pic_renderer.py"
+      },
+      {
+        "path": "code/heuriz/my_replay_buffer.py",
+        "sha256": "76902618014a98f8c9475737f3cfe77a1e93c3166ebd1fbc280b46d3a7ec9f4a",
+        "bytes": 7859,
+        "upstream": "https://gitee.com/Heuriz/goi-rl/blob/a2f00cefabfbf6e64fc02789f00583a548219f0a/my_replay_buffer.py"
+      },
+      {
+        "path": "code/heuriz/my_sac_policy.py",
+        "sha256": "501a7eeaf2da1265761ec27641380e3af01330e93ccab0ea1eb5ccd21afd15a1",
+        "bytes": 7507,
+        "upstream": "https://gitee.com/Heuriz/goi-rl/blob/a2f00cefabfbf6e64fc02789f00583a548219f0a/my_sac_policy.py"
+      },
+      {
+        "path": "code/heuriz/my_udp_receiver.py",
+        "sha256": "e617ef27a57d33ce7b7d97ec8ef53a251145cc2d04d40bc272d69e69299132da",
+        "bytes": 2303,
+        "upstream": "https://gitee.com/Heuriz/goi-rl/blob/a2f00cefabfbf6e64fc02789f00583a548219f0a/my_udp_receiver.py"
+      },
+      {
+        "path": "code/heuriz/record_UDP_to_mat.py",
+        "sha256": "0cfc82ce7ee7b1f00ec0b31c2093551ea8f96838322609473551a8b0fe7802a6",
+        "bytes": 3544,
+        "upstream": "https://gitee.com/Heuriz/goi-rl/blob/a2f00cefabfbf6e64fc02789f00583a548219f0a/record_UDP_to_mat.py"
+      },
+      {
+        "path": "code/heuriz/requirements.txt",
+        "sha256": "843c0200655c084e677ed5567caa4a7978c34ae401fddfad9a3b84ee76b1ba6a",
+        "bytes": 243,
+        "upstream": "https://gitee.com/Heuriz/goi-rl/blob/a2f00cefabfbf6e64fc02789f00583a548219f0a/requirements.txt"
+      }
+    ]
+  },
+  {
+    "id": "vision",
+    "repository": "https://github.com/Residualcanliu/goi-vision-rl",
+    "commit": "6feb95e4e1792551fb04683efd6e4dce9299c78b",
+    "commit_author_date": "2026-06-19T00:12:52+08:00",
+    "retrieved_date": "2026-10-20",
+    "scope": "Selected source text; not a runnable complete checkout. No game binaries, model weights, or extracted game assets.",
+    "files": [
+      {
+        "path": "code/vision/README.md",
+        "sha256": "f04fa4bafb5c73dd16bdd024a4a4fe038d1e000432689e7d62316870afc2c038",
+        "bytes": 7567,
+        "upstream": "https://github.com/Residualcanliu/goi-vision-rl/blob/6feb95e4e1792551fb04683efd6e4dce9299c78b/README.md"
+      },
+      {
+        "path": "code/vision/config/training_config.yaml",
+        "sha256": "2b138474b8ecefb364b9281bcdc0ee13f78ef72df27bd55a8b99e310d2eb21b8",
+        "bytes": 1264,
+        "upstream": "https://github.com/Residualcanliu/goi-vision-rl/blob/6feb95e4e1792551fb04683efd6e4dce9299c78b/config/training_config.yaml"
+      },
+      {
+        "path": "code/vision/plugins/CameraLogger.cs",
+        "sha256": "863fac8ee41cd909a1844390c5efc8bb9e5ddf115535fe321963a31cb8162bee",
+        "bytes": 1204,
+        "upstream": "https://github.com/Residualcanliu/goi-vision-rl/blob/6feb95e4e1792551fb04683efd6e4dce9299c78b/plugins/CameraLogger.cs"
+      },
+      {
+        "path": "code/vision/requirements.txt",
+        "sha256": "a84866fd05fa31b0ae48c3308434449cfed869b1614b794abf24d7b139dbf223",
+        "bytes": 287,
+        "upstream": "https://github.com/Residualcanliu/goi-vision-rl/blob/6feb95e4e1792551fb04683efd6e4dce9299c78b/requirements.txt"
+      },
+      {
+        "path": "code/vision/scripts/find_camera_auto.py",
+        "sha256": "225f27e7a55a539e762d2ae40a1066144f6b44ff874d7a5c7351ed93b4464477",
+        "bytes": 4356,
+        "upstream": "https://github.com/Residualcanliu/goi-vision-rl/blob/6feb95e4e1792551fb04683efd6e4dce9299c78b/scripts/find_camera_auto.py"
+      },
+      {
+        "path": "code/vision/scripts/monitor_height.py",
+        "sha256": "56bbd05d087486056fe6f9bef6c0bc9c1f7bcac87563b53d37fdd45a51c155b1",
+        "bytes": 2203,
+        "upstream": "https://github.com/Residualcanliu/goi-vision-rl/blob/6feb95e4e1792551fb04683efd6e4dce9299c78b/scripts/monitor_height.py"
+      },
+      {
+        "path": "code/vision/scripts/scan_camera.py",
+        "sha256": "9202e016a98405266a835614ae9a0e72b232cbdd5728827a3a19be4ae1111414",
+        "bytes": 5539,
+        "upstream": "https://github.com/Residualcanliu/goi-vision-rl/blob/6feb95e4e1792551fb04683efd6e4dce9299c78b/scripts/scan_camera.py"
+      },
+      {
+        "path": "code/vision/scripts/scan_heap.py",
+        "sha256": "7fb16ee618cc4c5a636b9eb4a2c9b7fdb7bb378d2d224150be1abb3ecbade63e",
+        "bytes": 7477,
+        "upstream": "https://github.com/Residualcanliu/goi-vision-rl/blob/6feb95e4e1792551fb04683efd6e4dce9299c78b/scripts/scan_heap.py"
+      },
+      {
+        "path": "code/vision/scripts/test_capture.py",
+        "sha256": "b236f3a669824d186a10d4ea695246b0b438aae31610a97342ceec6b63cf6dca",
+        "bytes": 1710,
+        "upstream": "https://github.com/Residualcanliu/goi-vision-rl/blob/6feb95e4e1792551fb04683efd6e4dce9299c78b/scripts/test_capture.py"
+      },
+      {
+        "path": "code/vision/scripts/test_memory.py",
+        "sha256": "b4e31b2e8fe2f702f6d436c0506c0b516d4d213c6ac9cb6fcd298ba5ac93f19b",
+        "bytes": 1354,
+        "upstream": "https://github.com/Residualcanliu/goi-vision-rl/blob/6feb95e4e1792551fb04683efd6e4dce9299c78b/scripts/test_memory.py"
+      },
+      {
+        "path": "code/vision/scripts/test_mouse.py",
+        "sha256": "bfb38949ac519d55a456e3ba900905006a64b956c0295adb010bf2bb583efd2e",
+        "bytes": 1483,
+        "upstream": "https://github.com/Residualcanliu/goi-vision-rl/blob/6feb95e4e1792551fb04683efd6e4dce9299c78b/scripts/test_mouse.py"
+      },
+      {
+        "path": "code/vision/src/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0,
+        "upstream": "https://github.com/Residualcanliu/goi-vision-rl/blob/6feb95e4e1792551fb04683efd6e4dce9299c78b/src/__init__.py"
+      },
+      {
+        "path": "code/vision/src/analysis/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0,
+        "upstream": "https://github.com/Residualcanliu/goi-vision-rl/blob/6feb95e4e1792551fb04683efd6e4dce9299c78b/src/analysis/__init__.py"
+      },
+      {
+        "path": "code/vision/src/analysis/plot_training.py",
+        "sha256": "37c51a6d23def8b0cc48a96d76e6faf15cf665669ff4bc764d328632321c7865",
+        "bytes": 2291,
+        "upstream": "https://github.com/Residualcanliu/goi-vision-rl/blob/6feb95e4e1792551fb04683efd6e4dce9299c78b/src/analysis/plot_training.py"
+      },
+      {
+        "path": "code/vision/src/analysis/replay_episode.py",
+        "sha256": "5def4d1bc1db9f22c3dd19b29d9dba4433105ba367e25d4849b037350506bdd7",
+        "bytes": 4241,
+        "upstream": "https://github.com/Residualcanliu/goi-vision-rl/blob/6feb95e4e1792551fb04683efd6e4dce9299c78b/src/analysis/replay_episode.py"
+      },
+      {
+        "path": "code/vision/src/environment/__init__.py",
+        "sha256": "0cf1da776baccce3a35b8649446849c280f581980a4f62c444441ae9b90199d7",
+        "bytes": 192,
+        "upstream": "https://github.com/Residualcanliu/goi-vision-rl/blob/6feb95e4e1792551fb04683efd6e4dce9299c78b/src/environment/__init__.py"
+      },
+      {
+        "path": "code/vision/src/environment/action.py",
+        "sha256": "3d8a857ee812b4c1f672974e139617a935945d808a32001335183dd94733b2c0",
+        "bytes": 1856,
+        "upstream": "https://github.com/Residualcanliu/goi-vision-rl/blob/6feb95e4e1792551fb04683efd6e4dce9299c78b/src/environment/action.py"
+      },
+      {
+        "path": "code/vision/src/environment/goi_env.py",
+        "sha256": "22d381df13f1c9c9101bed1ccdcf496154e3ed570622cb88e22b8a984d595c23",
+        "bytes": 8119,
+        "upstream": "https://github.com/Residualcanliu/goi-vision-rl/blob/6feb95e4e1792551fb04683efd6e4dce9299c78b/src/environment/goi_env.py"
+      },
+      {
+        "path": "code/vision/src/environment/observation.py",
+        "sha256": "791301c02e628e07e12020f006d40f39e29bd4a9f9e621c7b758a9d2a9194411",
+        "bytes": 3093,
+        "upstream": "https://github.com/Residualcanliu/goi-vision-rl/blob/6feb95e4e1792551fb04683efd6e4dce9299c78b/src/environment/observation.py"
+      },
+      {
+        "path": "code/vision/src/environment/register.py",
+        "sha256": "ec865e279ba1c6b813ce3a303e33e405455e78fec957847c2ce71bc37ba4f717",
+        "bytes": 533,
+        "upstream": "https://github.com/Residualcanliu/goi-vision-rl/blob/6feb95e4e1792551fb04683efd6e4dce9299c78b/src/environment/register.py"
+      },
+      {
+        "path": "code/vision/src/environment/reward.py",
+        "sha256": "a01a4aca50a75a262c72329be25ceb5b1ac0230085b0d338d931ae63790f11c4",
+        "bytes": 11548,
+        "upstream": "https://github.com/Residualcanliu/goi-vision-rl/blob/6feb95e4e1792551fb04683efd6e4dce9299c78b/src/environment/reward.py"
+      },
+      {
+        "path": "code/vision/src/game_interface/__init__.py",
+        "sha256": "b5b5da07bdf40fa6b3e518a1416886386b8ed15893ca8d35a348882644d67108",
+        "bytes": 144,
+        "upstream": "https://github.com/Residualcanliu/goi-vision-rl/blob/6feb95e4e1792551fb04683efd6e4dce9299c78b/src/game_interface/__init__.py"
+      },
+      {
+        "path": "code/vision/src/game_interface/capture.py",
+        "sha256": "1c2db1e9e4abd3989e3c49d61e373a11a76df6a3b9078919b946c4af52da4b21",
+        "bytes": 4313,
+        "upstream": "https://github.com/Residualcanliu/goi-vision-rl/blob/6feb95e4e1792551fb04683efd6e4dce9299c78b/src/game_interface/capture.py"
+      },
+      {
+        "path": "code/vision/src/game_interface/game_launcher.py",
+        "sha256": "d743baab30ccb29a15d2ee00e0026a44545f69c171eb992ef9c88477f284b865",
+        "bytes": 4019,
+        "upstream": "https://github.com/Residualcanliu/goi-vision-rl/blob/6feb95e4e1792551fb04683efd6e4dce9299c78b/src/game_interface/game_launcher.py"
+      },
+      {
+        "path": "code/vision/src/game_interface/mouse.py",
+        "sha256": "2c83dcda63be3be6732d118fc5f21939daa7213bbb36abd22ed61114eca87faf",
+        "bytes": 7253,
+        "upstream": "https://github.com/Residualcanliu/goi-vision-rl/blob/6feb95e4e1792551fb04683efd6e4dce9299c78b/src/game_interface/mouse.py"
+      },
+      {
+        "path": "code/vision/src/game_interface/window.py",
+        "sha256": "b33ebf6b1f51d01e8882d1293b31ca86b4f83f93cb0e067995e399c22e9a5d96",
+        "bytes": 3572,
+        "upstream": "https://github.com/Residualcanliu/goi-vision-rl/blob/6feb95e4e1792551fb04683efd6e4dce9299c78b/src/game_interface/window.py"
+      },
+      {
+        "path": "code/vision/src/state_reader/__init__.py",
+        "sha256": "1ccab50cdd08d0b30863de2873508c95afc548bd5f79116a94465538457bd26c",
+        "bytes": 80,
+        "upstream": "https://github.com/Residualcanliu/goi-vision-rl/blob/6feb95e4e1792551fb04683efd6e4dce9299c78b/src/state_reader/__init__.py"
+      },
+      {
+        "path": "code/vision/src/state_reader/address_finder.py",
+        "sha256": "add64832c407f3f5ff8c80fcb2980ba5daa8d764863ce5e745a76b46cd335e9f",
+        "bytes": 3926,
+        "upstream": "https://github.com/Residualcanliu/goi-vision-rl/blob/6feb95e4e1792551fb04683efd6e4dce9299c78b/src/state_reader/address_finder.py"
+      },
+      {
+        "path": "code/vision/src/state_reader/camera_reader.py",
+        "sha256": "eab503bedf82ef24725354458606e401b280a512cf27bea9088fd8b52820c27b",
+        "bytes": 2436,
+        "upstream": "https://github.com/Residualcanliu/goi-vision-rl/blob/6feb95e4e1792551fb04683efd6e4dce9299c78b/src/state_reader/camera_reader.py"
+      },
+      {
+        "path": "code/vision/src/state_reader/memory_reader.py",
+        "sha256": "4806a4b87a2984e02a0a4f3159d9c2ad0d769a8f4d3ba9f51d74bc029ef0a2a6",
+        "bytes": 6878,
+        "upstream": "https://github.com/Residualcanliu/goi-vision-rl/blob/6feb95e4e1792551fb04683efd6e4dce9299c78b/src/state_reader/memory_reader.py"
+      },
+      {
+        "path": "code/vision/src/training/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0,
+        "upstream": "https://github.com/Residualcanliu/goi-vision-rl/blob/6feb95e4e1792551fb04683efd6e4dce9299c78b/src/training/__init__.py"
+      },
+      {
+        "path": "code/vision/src/training/callbacks.py",
+        "sha256": "ddf5af094672958ccc3a8c91e4ae8ec5b8818f116ee6cc4b884eefd21bed2eb3",
+        "bytes": 5761,
+        "upstream": "https://github.com/Residualcanliu/goi-vision-rl/blob/6feb95e4e1792551fb04683efd6e4dce9299c78b/src/training/callbacks.py"
+      },
+      {
+        "path": "code/vision/src/training/evaluate.py",
+        "sha256": "906b5689d570ebd293275d5fd6bad6eaa03f0866d7746bc6a3879a242fdd584e",
+        "bytes": 4173,
+        "upstream": "https://github.com/Residualcanliu/goi-vision-rl/blob/6feb95e4e1792551fb04683efd6e4dce9299c78b/src/training/evaluate.py"
+      },
+      {
+        "path": "code/vision/src/training/train.py",
+        "sha256": "5f1e028b95fa02165a920f7b9955c219d9e67fd9fda10efd281f2786cd97c090",
+        "bytes": 9531,
+        "upstream": "https://github.com/Residualcanliu/goi-vision-rl/blob/6feb95e4e1792551fb04683efd6e4dce9299c78b/src/training/train.py"
+      }
+    ]
+  },
+  {
+    "id": "level-importer",
+    "repository": "https://github.com/Jor02/GOILevelImporter",
+    "commit": "6f579d35a287073e3e5a69d8912a39ed556cf85e",
+    "commit_author_date": "2026-09-30T20:25:25+02:00",
+    "retrieved_date": "2026-10-20",
+    "scope": "Selected source text; not a runnable complete checkout. No game binaries, model weights, or extracted game assets.",
+    "files": [
+      {
+        "path": "code/level-importer/GOILevelImporter/Base.cs",
+        "sha256": "c6cc82e5058bd6d4ff2bea49898438e53bcc4bb19d42ae136234c5c3a4ef969d",
+        "bytes": 1686,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Base.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Components/ComponentHelper.cs",
+        "sha256": "ece5ad53e11d5a86d5a6579d28ecb4c3faf06a057fa5e488adbfae2732902f1b",
+        "bytes": 1471,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Components/ComponentHelper.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Components/CustomGroundCol.cs",
+        "sha256": "b18b1299abff687bf90b8c34d26d54d2c49afcee7e04eabe2ce3b0839da669b3",
+        "bytes": 209,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Components/CustomGroundCol.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Components/CustomHitSound.cs",
+        "sha256": "a1ce7d8e11c5ea25bd2bc7a87ecd97bfdd5567a8f7c1364ba755af77d03e91e8",
+        "bytes": 819,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Components/CustomHitSound.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Components/CustomHitSoundProvider.cs",
+        "sha256": "cfc06c28dc34d85c5813864e812b40b29c687ce56ec19e992058566bd47346f1",
+        "bytes": 1077,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Components/CustomHitSoundProvider.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Components/CustomTrigger.cs",
+        "sha256": "391caabfcda71a8fad8b8c10d102c73953e48a5bbe2a93ad42af8869595a2be6",
+        "bytes": 3706,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Components/CustomTrigger.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Components/Goal.cs",
+        "sha256": "acfa2ce5acec010328a4dbf459e24dcf7859dde9908cd5a8cfe606788c2abe0b",
+        "bytes": 234,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Components/Goal.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Components/GravityControlLite.cs",
+        "sha256": "f7f11f67b1bc5650db1d5bc0a465cb0afe8700250b22e09d3636d702496113cf",
+        "bytes": 930,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Components/GravityControlLite.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Components/Legacy/LegacyCustomGroundCol.cs",
+        "sha256": "8e705d6195836596cd4c9de9fae26b9e91092808a060e271fa9a3402ff1c7ea7",
+        "bytes": 336,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Components/Legacy/LegacyCustomGroundCol.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Components/Legacy/LegacyCustomHitSound.cs",
+        "sha256": "a73c3f9e65b65981111d962fd8f5ced35c31fe20069bf833c1af5a7fb1cde269",
+        "bytes": 876,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Components/Legacy/LegacyCustomHitSound.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Components/Legacy/LegacyCustomHitSoundProvider.cs",
+        "sha256": "e3a57ef94cf68ed19c255f8e022c9379be1864be45ec84f78263e14d9a453cbe",
+        "bytes": 335,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Components/Legacy/LegacyCustomHitSoundProvider.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Components/Legacy/LegacyCustomTrigger.cs",
+        "sha256": "d551d5d0c246098ccf372c1779c4dfbe45eb7820834b731a3e3a599cb1c8dda0",
+        "bytes": 863,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Components/Legacy/LegacyCustomTrigger.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Components/Legacy/LegacyGravityControlLite.cs",
+        "sha256": "6319b42cfcd764d0da728bd9ce4463e1632a0ec4911ae91134e52a7af2103c68",
+        "bytes": 448,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Components/Legacy/LegacyGravityControlLite.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Components/LevelCameraPath.cs",
+        "sha256": "37a42f8d982e996d1b7a8aa78aed0f5d0a6228d8a03e576837648531c147d00c",
+        "bytes": 1193,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Components/LevelCameraPath.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Components/PlayerStart.cs",
+        "sha256": "f8e13d5d9b32928b3a3b7ca70b1fb698c2c893a3f680636ec8048b9d8cefbd34",
+        "bytes": 583,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Components/PlayerStart.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/CommandLine.cs",
+        "sha256": "34e30e75a05c87861fcda2fa21bf7d4da9d5150bcc9ccb7e4b2da956e07b89a9",
+        "bytes": 10006,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/CommandLine.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/LZMA/Common/CRC.cs",
+        "sha256": "f459c53795b90e6abb98fcdc95e3b0af640738a554c89efa0877e6770e07425a",
+        "bytes": 1105,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/LZMA/Common/CRC.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/LZMA/Common/CommandLineParser.cs",
+        "sha256": "b47a40808a96481dbd650fb07305eacbc8ec2d85c800c855c877bf25f9d33942",
+        "bytes": 6642,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/LZMA/Common/CommandLineParser.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/LZMA/Common/InBuffer.cs",
+        "sha256": "0636342e631969127f9f60b699d02819237c7c5d5819bfeb8d62fd1eed34f359",
+        "bytes": 1318,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/LZMA/Common/InBuffer.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/LZMA/Common/OutBuffer.cs",
+        "sha256": "dee25adf93c2285bcf5295c1297140efbb756ce5f5beab509bbf410456fd3dec",
+        "bytes": 897,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/LZMA/Common/OutBuffer.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/LZMA/Compress/LZ/IMatchFinder.cs",
+        "sha256": "17ea27ef2835b3634d77d8bc65979f9cc88069bc34abeb173ca2f620bffa87fc",
+        "bytes": 552,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/LZMA/Compress/LZ/IMatchFinder.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/LZMA/Compress/LZ/LzBinTree.cs",
+        "sha256": "17f26a894e966d613ea9d0f8cdcd871ec03c05682275e23e078d3d3e686b9368",
+        "bytes": 9270,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/LZMA/Compress/LZ/LzBinTree.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/LZMA/Compress/LZ/LzInWindow.cs",
+        "sha256": "0a31b68307b79ab455ae1653542031714308540e415a867321d10164b1505da3",
+        "bytes": 3779,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/LZMA/Compress/LZ/LzInWindow.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/LZMA/Compress/LZ/LzOutWindow.cs",
+        "sha256": "6efbc82940c735b6590062c6dd4d18373ee68dc9083ae2f2f0bc71b096bceb2d",
+        "bytes": 2104,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/LZMA/Compress/LZ/LzOutWindow.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/LZMA/Compress/LZMA/LzmaBase.cs",
+        "sha256": "06f6cf5e52b52a4b8ba6b21d5c9249c7fa08b5691111a3ddb02c5f8fda0fe6e8",
+        "bytes": 2696,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/LZMA/Compress/LZMA/LzmaBase.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/LZMA/Compress/LZMA/LzmaDecoder.cs",
+        "sha256": "86bc9eec692d256dbf028f4e8fb247449eca79413ffa3982f5f8eac1b76919d2",
+        "bytes": 11677,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/LZMA/Compress/LZMA/LzmaDecoder.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/LZMA/Compress/LZMA/LzmaEncoder.cs",
+        "sha256": "cf204387dac820e7e6fb9380d9860a1f93311df796bd52afc95405eca1e064de",
+        "bytes": 43744,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/LZMA/Compress/LZMA/LzmaEncoder.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/LZMA/Compress/RangeCoder/RangeCoder.cs",
+        "sha256": "5869f971bbd0fb3565cdcfd9b4053736941fe5f23fc108c32a615730f4f36f3c",
+        "bytes": 3956,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/LZMA/Compress/RangeCoder/RangeCoder.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/LZMA/Compress/RangeCoder/RangeCoderBit.cs",
+        "sha256": "d4b18bf5df991ef17378cb830c3334eeff6ab7e59ced9f45cf547de926c1dba7",
+        "bytes": 3155,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/LZMA/Compress/RangeCoder/RangeCoderBit.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/LZMA/Compress/RangeCoder/RangeCoderBitTree.cs",
+        "sha256": "3344b5c9be3de7c30eeb0999bf92059d8797e9d02c5189d2c1b77eb34bb39a61",
+        "bytes": 3368,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/LZMA/Compress/RangeCoder/RangeCoderBitTree.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/LZMA/ICoder.cs",
+        "sha256": "c3b769c59fee20164cb64ddc3798828cca38a5476e8dcaf0c679c88735bab769",
+        "bytes": 3605,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/LZMA/ICoder.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/LZMA/SevenZipHelper.cs",
+        "sha256": "ecd33468cfcc0cafd1b61dc6cb6d641941a08af8800a6946cfe0744a3c6a821c",
+        "bytes": 3012,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/LZMA/SevenZipHelper.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/LevelFileScanner.cs",
+        "sha256": "674b7666462126d8e6419cad31ae88d53fce17f3da7145524d12df570053577f",
+        "bytes": 13460,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/LevelFileScanner.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/LevelLoader.cs",
+        "sha256": "ab7030da5e563a6f416240b86081c483c959fb143aa2fe24474bca31b250c766",
+        "bytes": 9216,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/LevelLoader.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/LevelMetadata.cs",
+        "sha256": "663db7cf8680ffd29e1cbafb947cacdf6515e09620a09856383c16f1780aa9d4",
+        "bytes": 4178,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/LevelMetadata.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/LevelSceneEffects.cs",
+        "sha256": "b7ee1a47923850c0a01c6d7434ebf0e33251aa8aa7f2da72ac0501b5313db84a",
+        "bytes": 5559,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/LevelSceneEffects.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/LevelSelectionState.cs",
+        "sha256": "d4d1c660400e51f5b10cd085615843be77a55881a6e619bb484a32a67b647852",
+        "bytes": 3263,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/LevelSelectionState.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/Menu/AssetImporter.cs",
+        "sha256": "97d087671ca68fd2b17b7ffcad8a9977f649bde3c0eec6e99ecd46c638900dec",
+        "bytes": 1891,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/Menu/AssetImporter.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/Menu/CardTitleCentering.cs",
+        "sha256": "c61d6777b9807a62819939c9fd12101bc153c3eed74cafe4756aa29a69654ee2",
+        "bytes": 1763,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/Menu/CardTitleCentering.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/Menu/LevelButton.cs",
+        "sha256": "78ad0b57ae38d818d2819c35669f0bed13415f50ca11b2257ef1f60231583f6f",
+        "bytes": 3259,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/Menu/LevelButton.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/Menu/LevelGridLayout.cs",
+        "sha256": "517590c8499ae1ce261f2c0a331f1b490a027f691ab3ef047696ee97bb0111d6",
+        "bytes": 2239,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/Menu/LevelGridLayout.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/Menu/LevelSelectScreen.cs",
+        "sha256": "55a2a29c9167702312ded97963ad0956dbb9b4dfdae09c39a5cbb7eb7b5a3db2",
+        "bytes": 2110,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/Menu/LevelSelectScreen.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/Menu/LevelSelectView.cs",
+        "sha256": "5c7ee23a76cce80df30809e6f8584e414c86d635fc2af3300a94a13422d1d9ec",
+        "bytes": 19442,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/Menu/LevelSelectView.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/Menu/LevelTransitionScreen.cs",
+        "sha256": "a5f92abcbcf36d238d7e0855a3c0ef14b32adbf3eee0d990df07bfbdee16d93a",
+        "bytes": 2514,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/Menu/LevelTransitionScreen.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/Menu/LevelTransitionView.cs",
+        "sha256": "974f3a80d23b93044a3349c8aafa52e2ad23cf9453bdd7a2834691242b79838a",
+        "bytes": 3206,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/Menu/LevelTransitionView.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/Menu/LoadingError.cs",
+        "sha256": "c8f9b55502c79f7eab01cfa12bf3832f62a2451579964cd108a1425739d4b0bb",
+        "bytes": 2242,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/Menu/LoadingError.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/Menu/MainMenuController.cs",
+        "sha256": "d3e624f8456bc7b00f79b7ac7a0106c860de983792a00d11708c051a42e28dc4",
+        "bytes": 6188,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/Menu/MainMenuController.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/Menu/MenuButtons.cs",
+        "sha256": "1d491627e26a07b0042aafa5e989949b283c80f53459ee139e1cc704ea87c27e",
+        "bytes": 1269,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/Menu/MenuButtons.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/Menu/MenuTransitions.cs",
+        "sha256": "570d15e91dd7bcf0cadf1522e38728921edc2613c02e382e5e0bda581dc13518",
+        "bytes": 3280,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/Menu/MenuTransitions.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/Menu/RefreshButtonSpin.cs",
+        "sha256": "830b91d12e5068f4eacb5a4831a917b0ad37dc8f0c52f97199480aa49cc833ea",
+        "bytes": 1593,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/Menu/RefreshButtonSpin.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/Menu/UiAssets.cs",
+        "sha256": "06727f67d90751ac3c961e09f9c033e127a03e2c88ed9812debc5171eab821b0",
+        "bytes": 3816,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/Menu/UiAssets.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/Menu/UiFactory.cs",
+        "sha256": "71b3de363fa8f38560f55f1585f1d7a343dd4e8cc6f9f867e371f82d4d1764a2",
+        "bytes": 13838,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/Menu/UiFactory.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/Patches/CameraControlPatch.cs",
+        "sha256": "17ee39e5bd887414e6f8598e332a75fee25d998b412e068c00cd214a0ae7ba11",
+        "bytes": 3554,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/Patches/CameraControlPatch.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/Patches/LoaderPatch.cs",
+        "sha256": "78a40304a0a9e827b619afd3abc938ebb1901c345d9f7697d3cae6518cf2165d",
+        "bytes": 818,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/Patches/LoaderPatch.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/Patches/PlayerControlPatch.cs",
+        "sha256": "bc6f86ef64d69f883f750d6e1e1d4089e244b233e1531e4995b2db9821c50978",
+        "bytes": 901,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/Patches/PlayerControlPatch.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/Patches/PoseControlPatch.cs",
+        "sha256": "15bda0bb9b38897b2300a6194d3a7b3bd32508259a03129addf56fe02fc26cd7",
+        "bytes": 1495,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/Patches/PoseControlPatch.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/Patches/SaviourPatch.cs",
+        "sha256": "d86d9838070a3f1557455b079ee7f16674bc4d768ce8a059d8dc27587a2709ac",
+        "bytes": 313,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/Patches/SaviourPatch.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/Patches/SettingsManagerPatch.cs",
+        "sha256": "319b04a8cbed1d69e0a89276ce59d5c3efbe4fb45cee9f47f1dc0df395aa34f9",
+        "bytes": 819,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/Patches/SettingsManagerPatch.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/Spline/SplineBuilder.cs",
+        "sha256": "a794b0c853176b32ceeaaf7151508e04cbd94b8210436f2c80964eaf8a551c01",
+        "bytes": 1603,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/Spline/SplineBuilder.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Core/Spline/SplineInstaller.cs",
+        "sha256": "477391ca062530737c0e71f180eb16f88e1bf81655c12aeb6665f7138b15ede0",
+        "bytes": 3406,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Core/Spline/SplineInstaller.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/GOILevelImporter.csproj",
+        "sha256": "3ce8fd64536cc36af011a8168b6b9eb4d4f4b3860ed7b25958079aa5f7613428",
+        "bytes": 2837,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/GOILevelImporter.csproj"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/PluginInfo.cs",
+        "sha256": "daf31e874ec448ef76376666942aa9b6f11437cd371dd4ed40958b2f04d4ccaf",
+        "bytes": 861,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/PluginInfo.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Utils/PropertiesExtension.cs",
+        "sha256": "df29a72c2db2423d662317fb523909dd1292d96307244e694c1d48cc7e62a6ca",
+        "bytes": 4691,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Utils/PropertiesExtension.cs"
+      },
+      {
+        "path": "code/level-importer/GOILevelImporter/Utils/RectTransformExtensions.cs",
+        "sha256": "5281d861e6e849c049e9105cc206068ca8bd9fba67cef5ecec30e61e7df0710c",
+        "bytes": 1273,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/GOILevelImporter/Utils/RectTransformExtensions.cs"
+      },
+      {
+        "path": "code/level-importer/LICENSE",
+        "sha256": "5c0d44ee87549f78120aedb3910f1199f1a6051922d49e31f840678dd1fe821d",
+        "bytes": 1062,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/LICENSE"
+      },
+      {
+        "path": "code/level-importer/README.md",
+        "sha256": "bba18c46207e1af5bb6bdcb45d2c5e05e9d3c4ddf5ba0adaab32a6ac2fe9fd13",
+        "bytes": 2810,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/README.md"
+      },
+      {
+        "path": "code/level-importer/THIRDPARTY.md",
+        "sha256": "ade914b171369b5b5ae88b2236b5c51425dfb1273150b22b7e3556dd398cbffa",
+        "bytes": 34,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/THIRDPARTY.md"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Editor/Components/CustomGroundColEditor.cs",
+        "sha256": "9214f50c7c456f67fdd6ceebbe3029c27ca26b29e1916fba22fe405092065345",
+        "bytes": 3922,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Editor/Components/CustomGroundColEditor.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Editor/Components/PlayerStartGizmo.cs",
+        "sha256": "f5634740a56c6afde5cdc9fe5391569d9741c126a0fca45497b7bcfb4628f05a",
+        "bytes": 4954,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Editor/Components/PlayerStartGizmo.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Editor/CustomLevelObject.cs",
+        "sha256": "7c32009b5950ddb9d19d1d47b0cc51080d694392c5085552daad57596df9d3f4",
+        "bytes": 4267,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Editor/CustomLevelObject.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Editor/CustomLevelObjectEditor.cs",
+        "sha256": "c3515a8eced00211f2df39267a65891892cd51945efda9d4e89a54bb62c1c72d",
+        "bytes": 25022,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Editor/CustomLevelObjectEditor.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Editor/GltWriter.cs",
+        "sha256": "e65dbe7ac9413e5947f27c5c9c06663fbef767803530bf2cb72bd834558611b8",
+        "bytes": 4867,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Editor/GltWriter.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Editor/GoiInstall.cs",
+        "sha256": "9b578d23c7bcf04528e819c9ac3f13b13ab1cc1aee9059000f0922b3b2c5be9b",
+        "bytes": 8936,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Editor/GoiInstall.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Editor/LZMA/Common/CRC.cs",
+        "sha256": "f459c53795b90e6abb98fcdc95e3b0af640738a554c89efa0877e6770e07425a",
+        "bytes": 1105,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Editor/LZMA/Common/CRC.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Editor/LZMA/Common/CommandLineParser.cs",
+        "sha256": "b47a40808a96481dbd650fb07305eacbc8ec2d85c800c855c877bf25f9d33942",
+        "bytes": 6642,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Editor/LZMA/Common/CommandLineParser.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Editor/LZMA/Common/InBuffer.cs",
+        "sha256": "0636342e631969127f9f60b699d02819237c7c5d5819bfeb8d62fd1eed34f359",
+        "bytes": 1318,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Editor/LZMA/Common/InBuffer.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Editor/LZMA/Common/OutBuffer.cs",
+        "sha256": "dee25adf93c2285bcf5295c1297140efbb756ce5f5beab509bbf410456fd3dec",
+        "bytes": 897,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Editor/LZMA/Common/OutBuffer.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Editor/LZMA/Compress/LZ/IMatchFinder.cs",
+        "sha256": "17ea27ef2835b3634d77d8bc65979f9cc88069bc34abeb173ca2f620bffa87fc",
+        "bytes": 552,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Editor/LZMA/Compress/LZ/IMatchFinder.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Editor/LZMA/Compress/LZ/LzBinTree.cs",
+        "sha256": "17f26a894e966d613ea9d0f8cdcd871ec03c05682275e23e078d3d3e686b9368",
+        "bytes": 9270,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Editor/LZMA/Compress/LZ/LzBinTree.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Editor/LZMA/Compress/LZ/LzInWindow.cs",
+        "sha256": "0a31b68307b79ab455ae1653542031714308540e415a867321d10164b1505da3",
+        "bytes": 3779,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Editor/LZMA/Compress/LZ/LzInWindow.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Editor/LZMA/Compress/LZ/LzOutWindow.cs",
+        "sha256": "6efbc82940c735b6590062c6dd4d18373ee68dc9083ae2f2f0bc71b096bceb2d",
+        "bytes": 2104,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Editor/LZMA/Compress/LZ/LzOutWindow.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Editor/LZMA/Compress/LZMA/LzmaBase.cs",
+        "sha256": "06f6cf5e52b52a4b8ba6b21d5c9249c7fa08b5691111a3ddb02c5f8fda0fe6e8",
+        "bytes": 2696,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Editor/LZMA/Compress/LZMA/LzmaBase.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Editor/LZMA/Compress/LZMA/LzmaDecoder.cs",
+        "sha256": "86bc9eec692d256dbf028f4e8fb247449eca79413ffa3982f5f8eac1b76919d2",
+        "bytes": 11677,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Editor/LZMA/Compress/LZMA/LzmaDecoder.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Editor/LZMA/Compress/LZMA/LzmaEncoder.cs",
+        "sha256": "cf204387dac820e7e6fb9380d9860a1f93311df796bd52afc95405eca1e064de",
+        "bytes": 43744,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Editor/LZMA/Compress/LZMA/LzmaEncoder.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Editor/LZMA/Compress/RangeCoder/RangeCoder.cs",
+        "sha256": "5869f971bbd0fb3565cdcfd9b4053736941fe5f23fc108c32a615730f4f36f3c",
+        "bytes": 3956,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Editor/LZMA/Compress/RangeCoder/RangeCoder.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Editor/LZMA/Compress/RangeCoder/RangeCoderBit.cs",
+        "sha256": "d4b18bf5df991ef17378cb830c3334eeff6ab7e59ced9f45cf547de926c1dba7",
+        "bytes": 3155,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Editor/LZMA/Compress/RangeCoder/RangeCoderBit.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Editor/LZMA/Compress/RangeCoder/RangeCoderBitTree.cs",
+        "sha256": "3344b5c9be3de7c30eeb0999bf92059d8797e9d02c5189d2c1b77eb34bb39a61",
+        "bytes": 3368,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Editor/LZMA/Compress/RangeCoder/RangeCoderBitTree.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Editor/LZMA/ICoder.cs",
+        "sha256": "c3b769c59fee20164cb64ddc3798828cca38a5476e8dcaf0c679c88735bab769",
+        "bytes": 3605,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Editor/LZMA/ICoder.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Editor/LZMA/SevenZipHelper.cs",
+        "sha256": "ecd33468cfcc0cafd1b61dc6cb6d641941a08af8800a6946cfe0744a3c6a821c",
+        "bytes": 3012,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Editor/LZMA/SevenZipHelper.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Editor/LevelBuilder.cs",
+        "sha256": "e7d8e643c079f5657c422a91e133fc23e612887e5dcdb24693aef725e09b45a5",
+        "bytes": 8491,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Editor/LevelBuilder.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Editor/LevelPropertyRegistry.cs",
+        "sha256": "710cd68de3d8533d1ee04f17f694693d67d7292e90dd8d1e8274190d0ee4df98",
+        "bytes": 4706,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Editor/LevelPropertyRegistry.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Editor/LevelTestLaunch.cs",
+        "sha256": "591be7b4e80c141daece4b488a090b1c8052df7f3e7e368840bcdaa2142af54e",
+        "bytes": 2774,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Editor/LevelTestLaunch.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Editor/LevelValidation.cs",
+        "sha256": "8acdcecb0610656958c56609ed15780ce81467650d07cd5d870ac6745b70fd1a",
+        "bytes": 7171,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Editor/LevelValidation.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Editor/ProjectSetupLayers.cs",
+        "sha256": "d490ef48d206bc0c29a11f8454c900c14cd37af83d8648026f7df03167dac14f",
+        "bytes": 3270,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Editor/ProjectSetupLayers.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Editor/ProjectSetupRegistry.cs",
+        "sha256": "8d1db60f2f972479c1601023161ee3dc6e3ce05bad51fec2064913e163ae9db6",
+        "bytes": 1769,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Editor/ProjectSetupRegistry.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Editor/ProjectSetupWindow.cs",
+        "sha256": "bfc4136587e77cbccab2fda16a37fa6b9708b097e9e7db74b32087bf9a7ad693",
+        "bytes": 4015,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Editor/ProjectSetupWindow.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Runtime/Components/CustomGroundCol.cs",
+        "sha256": "b4058c1167fe3381b7d57f045c54b3900b166dd8b574addc7d75b1a17ff02064",
+        "bytes": 576,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Runtime/Components/CustomGroundCol.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Runtime/Components/CustomHitSound.cs",
+        "sha256": "8c70b63709d81177c09c5ce899ae4ea7b4c423418909b947b325a94067d9ccf3",
+        "bytes": 461,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Runtime/Components/CustomHitSound.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Runtime/Components/CustomMaterialProvider.cs",
+        "sha256": "4c9516cb8d6f59a4e8fee542e042231a110cce561896771c6e65fa32f20d1300",
+        "bytes": 257,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Runtime/Components/CustomMaterialProvider.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Runtime/Components/Goal.cs",
+        "sha256": "526407f75ad7c6ab107a9727fcd43324d7b69df7678c4450abdc87ff5c1ef2d0",
+        "bytes": 774,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Runtime/Components/Goal.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Runtime/Components/PlayerStart.cs",
+        "sha256": "ebbeefb51412add67b9e8aa2611b94821e4ca13f6103ea177bb032a15d0d279f",
+        "bytes": 1732,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Runtime/Components/PlayerStart.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Runtime/Components/ProjectedMeshCollider2D.cs",
+        "sha256": "165c4c82596c77497f18180e810790d6d261ca6583ff7fb21a6a38383e45df00",
+        "bytes": 9148,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Runtime/Components/ProjectedMeshCollider2D.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Geometry/Aabb2D.cs",
+        "sha256": "923fe54c9e95b5a92d123faa452aeca9f738f126b403e695aa76af769dad691f",
+        "bytes": 2385,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Geometry/Aabb2D.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Geometry/Geometry2D.cs",
+        "sha256": "db146368387475d1c2aa8e09694db18fc137acad8317936feb99f5eb9e42ef90",
+        "bytes": 3859,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Geometry/Geometry2D.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Geometry/NormalizedSpace.cs",
+        "sha256": "313f97530ccfc84e19d6f8982fbcd382b0e386527900b2da18fcb3bc0f5207c3",
+        "bytes": 1520,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Geometry/NormalizedSpace.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Geometry/PointMerger.cs",
+        "sha256": "77950152be7612c099123295aa6ed2f775ed4323fa3d2dcb73f47df427efecc4",
+        "bytes": 2236,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Geometry/PointMerger.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Geometry/PolygonSimplifier.cs",
+        "sha256": "c3196b282cdcc03cb758d110b54d9bedd2b56716b8c282092ee5e3d36c0b45dd",
+        "bytes": 2486,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Geometry/PolygonSimplifier.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Geometry/ProjectionPlane.cs",
+        "sha256": "35336f5d48048d2c584aab57f50beba4bd2416525f82cd1f67815ded2bfa7f42",
+        "bytes": 1617,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Geometry/ProjectionPlane.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Silhouette/BoundaryExtractor.cs",
+        "sha256": "1b87d777627f7e9222eaae8b63c839ccdac8043ec0287fd0ebfc9f888043331e",
+        "bytes": 2447,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Silhouette/BoundaryExtractor.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Silhouette/BoundarySegment.cs",
+        "sha256": "eef1f54677cbf9ee68e2eaaa0fd6fbb806d27ab2023fb3a58c6b4270e397a5bc",
+        "bytes": 382,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Silhouette/BoundarySegment.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Silhouette/EdgeSplitter.cs",
+        "sha256": "677e8fbbdb7bb1c3f3f418d9a54a13325c803af9d5120266b6c6287e44d7b1b8",
+        "bytes": 4775,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Silhouette/EdgeSplitter.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Silhouette/LoopClassifier.cs",
+        "sha256": "7ad0216c4a33ac260fafcb216cd330e0f5b30cf4d50b351ad542d45bee285393",
+        "bytes": 2062,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Silhouette/LoopClassifier.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Silhouette/LoopTracer.cs",
+        "sha256": "09c0119d1b31ace69a8fdd8931e91641e86c49d911ff79ba0421bd32e4000f15",
+        "bytes": 4372,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Silhouette/LoopTracer.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Silhouette/MeshProjectionCollider.cs",
+        "sha256": "71c6ba7ec9f1a5df0d4cf2c7d3c646a4b2cd0fc1c933a6668d5b81b27e61368a",
+        "bytes": 3556,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Silhouette/MeshProjectionCollider.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Silhouette/OutlineEdge.cs",
+        "sha256": "dc2369851aa3de07330f6aa31193e5251cb107fe7169bff3df91af948fe672d3",
+        "bytes": 1092,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Silhouette/OutlineEdge.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Silhouette/OutlineEdgeSet.cs",
+        "sha256": "4a8f1d9fe1999f2881d8dcfb4d5d8976a00faca6cb74e9644996b9c8b1bdfb54",
+        "bytes": 1078,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Silhouette/OutlineEdgeSet.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Silhouette/OutlineLoop.cs",
+        "sha256": "8912876055bb622b58c043d2943704fcbf57356e0d20f417293d48de9e5e9061",
+        "bytes": 472,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Silhouette/OutlineLoop.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Silhouette/ProjectedTriangle.cs",
+        "sha256": "07d8cfc5b8951750e8f9c29db0bcd6dd8983023f3975474a20cbca72acadd756",
+        "bytes": 3049,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Silhouette/ProjectedTriangle.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Silhouette/ProjectionTolerance.cs",
+        "sha256": "a103ca82c8596e06d8b16349921ff7441b97fea025209f2733d4834a46fd45f5",
+        "bytes": 397,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Silhouette/ProjectionTolerance.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Silhouette/SeamBuilder.cs",
+        "sha256": "32b23d8d5d04148aec6edfc9d05da184d726b7905dcf7ea7dab42c3d0106a8ae",
+        "bytes": 4834,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Silhouette/SeamBuilder.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Silhouette/SilhouetteTracer.cs",
+        "sha256": "eb92868f3fb733a11b031cc53c1fcbf8a3f67842cf651fb3f1d6d730ae2c5448",
+        "bytes": 4813,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Silhouette/SilhouetteTracer.cs"
+      },
+      {
+        "path": "code/level-importer/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Silhouette/TriangleGrid.cs",
+        "sha256": "fc2e64857f3468d425a570b88d6c0e50d7b97b33e92d39572fd7907652f0ed59",
+        "bytes": 4490,
+        "upstream": "https://github.com/Jor02/GOILevelImporter/blob/6f579d35a287073e3e5a69d8912a39ed556cf85e/UnityPackage/com.jor02.goi-level-tools/Runtime/Utils/Silhouette/TriangleGrid.cs"
+      }
+    ]
+  }
+]

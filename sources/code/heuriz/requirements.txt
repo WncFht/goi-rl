@@ -1,0 +1,9 @@
+earcut
+mujoco
+scipy
+torch==2.4.1+cu124
+torchvision==0.19.1+cu124
+tensorboard
+
+# pip install torch==2.4.1+cu124 torchvision==0.19.1+cu124  --index-url https://download.pytorch.org/whl/cu124
+# pip install -e .\lidar_gen_cuda --no-build-isolation
