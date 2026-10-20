@@ -72,6 +72,14 @@
       "needs": [],
       "timeout": 120,
       "allow_failure": false
+    },
+    {
+      "id": "markdown-tests",
+      "command": ["npm", "run", "test:markdown"],
+      "modes": ["test", "ci"],
+      "needs": [],
+      "timeout": 120,
+      "allow_failure": false
     }
   ]
 }

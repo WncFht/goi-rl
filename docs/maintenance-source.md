@@ -14,6 +14,6 @@
 - `sources/** -text` 禁止 Git 换行转换，保持原始证据字节。
 - 凭据扫描仅豁免两个指定快照中准确匹配的 Unity 注册表键读取行；该字段是角色数量配置名，不是凭据。
 
-采用维护包的 KaTeX 与 smol-toml 版本覆盖。2026-10-20 的 npm audit 仍报告 5 项高危传递依赖告警，源头为 braces 嵌套模式的栈耗尽风险，并沿 Markdownlint 的 glob 依赖传播。该工具只用于开发检查；未采用 audit 建议的破坏性版本回退，后续升级应重新运行维护工具测试。
+Markdown 检查直接使用 `markdownlint` 0.41.1 API，规则归 `.markdownlint.json`。`scripts/lint-markdown.mjs` 枚举 Git 跟踪与未忽略新文件，并将文件名原样传入检查器；不使用 glob 展开，也不依赖引入 braces 的 Markdownlint CLI 包。保留 KaTeX 0.19.0 覆盖；已无 smol-toml 消费者。2026-10-21 的干净安装与 npm audit 报告零告警，后续升级仍需重新审计。
 
 MIT 许可仅覆盖相应维护包内容，不能替代其他仓库快照的许可。研究来源归 `sources/source-manifest.json` 和主报告参考文献。

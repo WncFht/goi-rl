@@ -9,7 +9,7 @@ repos:
         stages: [manual]
         entry: node_modules/.bin/git-format-staged --formatter "node_modules/.bin/prettier --stdin-filepath {}"
         language: system
-        files: '\.(md|yaml|yml|json|jsonc)$'
+        files: '\.(md|yaml|yml|json|jsonc|mjs)$'
         exclude: ^package-lock\.json$|^\.agents/notes/archived/
       - id: python-format
         name: Format staged Python
@@ -24,7 +24,7 @@ repos:
         types: [python]
       - id: markdown-lint
         name: Markdown lint
-        entry: node_modules/.bin/markdownlint-cli2
+        entry: node scripts/lint-markdown.mjs
         language: system
         types: [markdown]
       - id: staged-contracts

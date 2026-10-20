@@ -2,18 +2,18 @@
   "name": "goi-rl-research",
   "private": true,
   "scripts": {
-    "format": "prettier --write \"**/*.{md,yaml,yml,json,jsonc}\"",
-    "format:check": "prettier --check \"**/*.{md,yaml,yml,json,jsonc}\"",
-    "lint:md": "markdownlint-cli2 \"**/*.md\"",
-    "check": "python3 scripts/run_checks.py --config scripts/checks.json --mode ci"
+    "format": "prettier --write \"**/*.{md,yaml,yml,json,jsonc,mjs}\"",
+    "format:check": "prettier --check \"**/*.{md,yaml,yml,json,jsonc,mjs}\"",
+    "lint:md": "node scripts/lint-markdown.mjs",
+    "check": "python3 scripts/run_checks.py --config scripts/checks.json --mode ci",
+    "test:markdown": "node --test scripts/tests/test-markdown.mjs"
   },
   "devDependencies": {
     "git-format-staged": "4.0.2",
-    "markdownlint-cli2": "0.23.3",
-    "prettier": "3.9.6"
+    "prettier": "3.9.6",
+    "markdownlint": "0.41.1"
   },
   "overrides": {
-    "katex": "0.19.0",
-    "smol-toml": "1.9.1"
+    "katex": "0.19.0"
   }
 }
